@@ -23,7 +23,8 @@ Simply paste the code below into your newly-created widget. You’ll replace [ST
 
 ## The code
 
-```const url = 'https://app.birdweather.com/api/v1/stations/[STATION_TOKEN]/species/?limit=5'
+```JavaScript
+const url = 'https://app.birdweather.com/api/v1/stations/[STATION_TOKEN]/species/?limit=5'
 const url2 = 'https://app.birdweather.com/api/v1/stations/[STATION_TOKEN]/stats'
 const url3 = 'https://app.birdweather.com/api/v1/stations/[STATION_TOKEN]/stats/?period=all'
 const url4 = 'https://app.birdweather.com/api/v1/stations/[STATION_TOKEN]/detections/?limit=1'
